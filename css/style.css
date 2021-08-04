@@ -1,0 +1,78 @@
+/*Start Include Font-family */
+@font-face {
+    font-family: PTS75F;
+    src: url(../fonts/pt-sans/PTS75F.ttf);
+}
+@font-face {
+    font-family: PTS55F;
+    src: url(../fonts/pt-sans/PTS55F.ttf);
+}
+/*End Include Font-family */
+/* Start Reuseble Block */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: PTS55F;
+    font-weight: 400;
+}
+body h1{
+    margin: 0;
+    padding: 0;
+    font-family: PTS75F;
+    font-weight: bold;
+}
+body h2{
+    margin: 0;
+    padding: 0;
+    font-family: PTS55F;
+    font-weight: 400;
+    font-size: 28px;
+    color: #010101;
+}
+/* End Reuseble Block */
+/*Start Header*/
+header{
+    background-color: #FCDB00;
+}
+.navbar ul li a{
+    font-family: PTS75F;
+    font-weight: bold;
+    font-size: 30px;
+    color: #010101 !important;
+}
+.navbar ul li a:hover{
+    color: black;
+}
+/*End Header*/
+
+/*Start Carousel*/
+
+.carousel-indicators{
+    display: grid !important;
+    justify-content: right !important;
+    margin-left: 27% !important;
+    margin-bottom: 30% !important;
+    margin-right: 5% !important;
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    width: 18px;
+    margin-right: 3px;
+    margin-left: 12px;
+    border-radius: 82%;
+    height: 18px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    top: 81%;
+    width: 4%;
+
+}
+.carousel-control-next {
+    right: 5%;
+}
+
+.carousel-control-prev {
+    left: 5%;
+}
+/*End Carousel*/
